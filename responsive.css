@@ -1,0 +1,147 @@
+@media screen and (max-width: 1250px){
+    .navbar-right > *{
+        font-size: 1rem;
+    }
+
+    .horizontal-seperator {
+        left: 60% !important;
+    }
+
+    .week-button button{
+        margin-left: 75%;
+    }
+
+    .week-elements .cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .navbar{
+        margin-right: 2%;
+    }
+
+    .navbar .menu-button{
+        background-color: #e37575;
+        padding: 20px;
+    }
+
+    .navbar .logo-image{
+        z-index: 10;
+    }
+
+    .navbar-right{
+        position: fixed;
+        flex-direction: column;
+        left: -100%;
+        top: 0%;
+        text-align: center;
+        background-color: #e37575;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .navbar-right > * {
+        padding: 3%;
+    }
+
+    .navbar-right.active {
+        left: 0;
+    }
+
+    .navbar > .plus-sign{
+        display: block;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .home-top p {
+        font-size: 1.5rem !important;
+    }
+
+    .home-releases p, .home-events p, footer p {
+        font-size: 0.7rem !important;
+    }
+
+    .horizontal-seperator, .vertical-seperator {
+        display: none;
+    }
+
+    .home-releases .releases .week-container {
+        margin-bottom: 15%;
+    }
+
+    .week-heading {
+        text-align: center;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .week-elements > .cards h3 {
+        font-size: 0.85rem;
+    }
+
+    .week-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .week-button button{
+        margin-left: unset;
+    }
+
+    .home-events .events .card-text *{
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 612px){
+    .seperator .heading hr {
+        border: none;
+        border-top: 15px solid #a45555;
+        margin: 0;
+        border-radius: 9px;
+    }
+
+    .home-events .events {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar-container > .logo > p {
+        font-size: 3rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        line-height: 95px;
+    }
+
+    .navbar .logo-image {
+        left: -0.5%;
+    }
+
+    .home-top .home-top-elements *{
+        font-size: 0.9rem !important;
+    }
+
+    .week-elements .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .week-elements > .cards > * {
+        width: unset;
+    }
+
+    .week-button button{
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        margin-top: 10%;
+    }
+}

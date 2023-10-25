@@ -1,0 +1,219 @@
+.item {
+    background: url(../assets/images/backgroundimage.png);
+    min-height: 240vh;;
+}
+
+.item-background {
+    position: relative;
+}
+
+.item-background-image {
+    /* background: url(../assets/images/282b71a86a960e117b12b24d88aff20e.webp) no-repeat; */
+    background: url(../assets/images/Disco-Elysium-Art.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 70vh;
+}
+
+.item-quick-info {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 15%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "poster logo"
+    "poster text";
+    gap: 20px;
+
+}
+
+.item-quick-info img:nth-child(2){
+    grid-area: poster;
+    width: 100%;
+    border-radius: 5px;
+    border: 10px solid #FFF;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.item-quick-info img:nth-child(1){
+    grid-area: logo;
+    width: 75%;
+    margin: auto;
+}
+
+.overlay {
+    height: 100%
+}
+
+.item-quick-info .item-text, .mobile-item-text {
+    margin-left: 12%;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.mobile-item-text *{
+    font-size: 1rem;
+}
+
+.mobile-item-text h2:nth-child(even){
+    color: #e37575;
+
+}
+
+.mobile-item-text {
+    display: none;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.mobile-item-text div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mobile-item-text div h2:nth-child(even){
+    text-align: start;
+}
+
+.mobile-item-text div h2:nth-child(odd){
+    text-align: end;
+}
+
+.mobile-item-text-title {
+    padding: 5px 10px;
+    background-color: #e37575;
+}
+
+.item-text-title {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -37%;
+    top: 30%;
+    padding: 5px 10px;
+    background-color: #e37575;
+}
+
+.item-quick-info .item-text h2:nth-child(odd) {
+    text-align: start;
+}
+
+.item-quick-info .item-text h2:nth-child(even) {
+    color: #e37575;
+    text-align: end;
+}
+
+.item-info {
+    margin: 0 10%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5%;
+}
+
+.item-info h1{
+    color: #e37575;
+    margin-bottom: 25px;
+}
+
+.item-info .item-text h1{
+    color: white;
+}
+
+.item-info div:nth-child(even) {
+    text-align: end;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "one one two two"
+    "one one three four"
+    "five nine six seven"
+    "eight eight six seven";
+    gap: 10px;
+    height: 100%;
+}
+
+.gallery-images div{
+    border: 2px solid #e37575;
+    border-radius: 5px;
+    min-height: 150px;
+    transition: .3s ease;
+}
+
+.gallery-images div:hover{
+    transform: scale(1.5);
+    
+}
+
+.gallery-images div:nth-child(1){
+    grid-area: one;
+    background: url(../assets/images/gallery/1e0dbe1bf2bc3e65a4c9dcc259140a88.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(2){
+    grid-area: two;
+    background: url(../assets/images/gallery/1e1421e5166573b6950d5eddd3955799.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(3){
+    grid-area: three;
+    background: url(../assets/images/gallery/29de5797ca791cbce23dba183e7f6942.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(4){
+    grid-area: four;
+    background: url(../assets/images/gallery/6592d94b642a96cb25df67c03d7f612e.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(5){
+    grid-area: five;
+    background: url(../assets/images/gallery/6a0ec32ec86894561d88ede9f165a343.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(6){
+    grid-area: six;
+    background: url(../assets/images/gallery/8274a1c049c5a51435f82c8a9c6ff63d.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(7){
+    grid-area: seven;
+    background: url(../assets/images/gallery/972b2c15a9ae299546fad2b3c2fe6b7a.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images div:nth-child(8){
+    grid-area: eight;
+    background: url(../assets/images/gallery/9d4f4828438089af6d03992f5c0ae275.jpg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.gallery-images p{
+    grid-area: nine;
+    background-color: #e37575;
+}
+
+.trailer iframe {
+    border: 2px solid #e37575;
+    border-radius: 5px;
+}

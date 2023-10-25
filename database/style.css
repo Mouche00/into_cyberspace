@@ -1,0 +1,97 @@
+
+
+.database-container {
+    margin-bottom: 5%;
+    background: url(../assets/images/backgroundimage.png);
+}
+
+.database {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3%;
+    margin: 0 5%;
+    min-height: 100vh;
+}
+
+.database .cards-background{
+    background-color: #e37575;
+    border-radius: 12px;
+}
+
+.database .cards{
+    text-align: center;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    transition: .3s ease;
+    height: 100%;
+}
+
+.database .cards-background:hover .cards{
+    transform: translate(-5%, -5%);
+}
+
+.database .cards-background:hover h1{
+    opacity: 1;
+}
+
+.database .cards .card-image {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+}
+
+.database .cards-background:nth-child(1) .cards .card-image{
+    background: url(../assets/images/disco-elysium-font-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.database .cards-background:nth-child(2) .cards .card-image{
+    background: url(../assets/images/Mushishi.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.database .cards-background:nth-child(3) .cards .card-image{
+    background: url(../assets/images/65e2b88d9c721bfce324da3c0f2783d7.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.database .cards-background:nth-child(4) .cards .card-image{
+    background: url(../assets/images/758138490304afee88746ee1ca25dd1a.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.database .cards-background:nth-child(5) .cards .card-image{
+    background: url(../assets/images/GerrinTramis_PerfectBlue.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.database .cards-background:nth-child(6) .cards .card-image{
+    background: url(../assets/images/1577722470_hyper.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.database .cards * {
+    padding: 2% 0;
+}
+
+.database .cards .card-text p:nth-child(2) {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.database-container .seperator {
+    background: url(../assets/images/concept-design-for-ghost-in-the-shell-2-innocence-by-takashi-watabe-2004-shirow-masamune-kodansha-ig-itnddtd-copy.webp);
+    background-position: 50%;
+    height: 50vh;
+    margin-bottom: 5%;
+    border-bottom: 4px solid #a45555;
+}
+
+.database-container .seperator .heading h1 {
+    color: black;
+}

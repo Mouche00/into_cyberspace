@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px){
+    .database {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .database .cards .card-image {
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .database {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        min-height: unset;
+    }
+
+    .database .cards .card-image {
+        height: 75px;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}

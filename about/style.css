@@ -1,0 +1,141 @@
+
+
+.about-container {
+    margin-bottom: 5%;
+    background: url(../assets/images/backgroundimage.png);
+}
+
+.about-container .seperator {
+    background: url(../assets/images/lg8ZCAq.jpg);
+    background-position: 50%;
+    height: 50vh;
+    margin-bottom: 5%;
+    border-bottom: 4px solid #a45555;
+}
+
+.about-container .seperator .heading h1 {
+    color: white;
+}
+
+.about {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 50px;
+    margin-bottom: 5%;
+    color: #e37575;
+}
+
+.valid {
+    border: 2px solid;
+    border-color: #36cc36;
+}
+
+.invalid {
+    border: 2px solid;
+    border-color:red
+}
+
+.form{
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+    background-color: #a45555;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form div {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.form h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 75px;
+}
+
+.form form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form form input{
+    margin-bottom: 5%;
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin: 0 auto;   
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: none;
+}
+
+.form form .submit-container{
+    width: 40%;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.form form .submit{
+    color: #e37575;
+}
+
+.form *{
+    color: black;
+}
+
+.form p {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 700;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq h2 {
+    font-size: 75px;
+    margin-bottom: 100px;
+}
+
+.faq div{
+    width: 50%;
+}
+
+.faq div button{
+    color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.faq div .response{
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+.not-about {
+    display: flex;
+
+}

@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    transition: .3s ease;
+    z-index: 10;
+}
+
+.navbar-right {
+    position: static;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    transition: .1s ease;
+    gap: 7%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.navbar .logo-image{
+    position: absolute;
+    left: 5%;
+}
+
+.navbar .logo-image img{
+    height: 250px;
+}

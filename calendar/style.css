@@ -1,0 +1,151 @@
+.navbar .logo-image {
+    z-index: 12;
+}
+
+.calendar-container {
+    margin-bottom: 5%;
+    background: url(../assets/images/backgroundimage.png);
+}
+
+.calendar-container .seperator {
+    background: url(../assets/images/4625354.jpg);
+    background-position: 50%;
+    height: 50vh;
+    margin-bottom: 5%;
+    border-bottom: 4px solid #a45555;
+}
+
+.calendar-container .seperator .heading h1{
+    color: white;
+}
+
+.calendar-title {
+    text-align: center;
+}
+
+.calendar-title h1{
+    text-shadow: 4px 4px 25px #A45555;
+}
+
+.calendar-title h1:nth-child(2) span{
+    color: #e37575;
+}
+
+.calendar-title h1:nth-child(1){
+    margin-right: 10%;
+}
+
+.calendar-title h1:nth-child(3){
+    margin-left: 10%;
+    color: #e37575;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    min-height: 100vh;
+    margin: 0 5%;
+}
+
+.label {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.label p{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.case-container {
+    background-color: rgba(85, 85, 85, 0.308);
+}
+
+.disabled {
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+/* .overlay-show {
+    background-color: #596088;
+} */
+
+.cards {
+    height: 100%;
+}
+
+.filled {
+    position: relative;
+    overflow: hidden;
+}
+
+.filled > p{
+    position: absolute;
+    z-index: 7;
+    padding: 5px;
+    background-color: #e37575;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards .card-text{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    font-size: 12px;
+    transition: .3s ease;
+}
+
+.cards .card-type{
+    position: absolute;
+    top: -50%;
+    left: 80%;
+    font-size: 12px;
+    transition: .3s ease;
+    transform: rotate(-90deg);
+    background-color: #e37575;
+    padding: 5px 12px;
+}
+
+.filled:hover .card-text{
+    top: 85%;
+}
+
+.filled:hover .card-type{
+    top: 15%;
+}
+
+.filled-one .card-image{
+    height: 100%;
+    background: url(../assets/images/capsule_616x353.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.filled-two .card-image{
+    height: 100%;
+    background: url(../assets/images/maxresdefault.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.filled-three .card-image{
+    height: 100%;
+    background: url(../assets/images/capsule_616x353\ \(2\).jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.filled-four .card-image{
+    height: 100%;
+    background: url(../assets/images/MV5BMzIwM2FkMmEtNjQyZC00YThmLTg3ZjQtZGIyMWE3NjQwYTU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX500_-4.jpg);
+    background-position: 50%;
+    background-size: cover;
+}

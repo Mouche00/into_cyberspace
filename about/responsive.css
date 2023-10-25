@@ -1,0 +1,36 @@
+@media screen and (max-width: 1558px){
+    .not-about {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    .faq {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form form .submit-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 612px){
+    .form {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .faq div{
+        width: 90%;
+    }
+}
