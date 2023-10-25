@@ -81,3 +81,21 @@
     }
     
 }
+
+@media screen and (max-width: 660px){
+    .trailer iframe {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 460px){
+    
+    * {
+        font-size: 10px !important;
+    }
+
+    .mobile-item-text {
+        margin-top: 200px;
+    }
+}

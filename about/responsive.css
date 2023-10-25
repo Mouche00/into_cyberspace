@@ -30,6 +30,14 @@
         margin: 100px auto;
     }
 
+    h2 {
+        font-size: 30px !important;
+    }
+
+    * {
+        font-size: 10px !important;
+    }
+
     .faq div{
         width: 90%;
     }
